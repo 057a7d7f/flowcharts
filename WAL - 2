@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T05:33:41.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zHhASD_A1BEeQZLtFBZ_" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T05:48:40.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="M8cuIGF4d4n_RcSY5Xjr" version="12.9.4" type="github">
   <diagram id="FtwIqNkM9gL2dorzrRTE" name="Page-1">
     <mxGraphModel dx="863" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -230,6 +230,21 @@
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-86" value="SINCE RW_SEP ONLY EXISTS ON EACH WAFER ON ROWNUM = 0, FILL ALL RW_SEP DATA ON EACH WAFER" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="256.87" y="2030" width="303.76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-91" value="&lt;font color=&quot;#0000ff&quot;&gt;WAFERNUM ROWNUM DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-93" value="&lt;font color=&quot;#0000ff&quot;&gt;WAFERPROD DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="343.75" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-94" value="&lt;font color=&quot;#0000ff&quot;&gt;WAFERPROD DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-95" value="&lt;font color=&quot;#0000ff&quot;&gt;WAFERPROD DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-96" value="&lt;font color=&quot;#0000ff&quot;&gt;WAFERPROD WAFERNUM ROWNUM DATA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="770" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
