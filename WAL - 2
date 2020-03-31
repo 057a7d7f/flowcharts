@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T06:58:20.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="etN5Ippkk6rzwgmyy91s" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T07:01:26.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="G-lb2jngId1BBMczh414" version="12.9.4" type="github">
   <diagram id="FtwIqNkM9gL2dorzrRTE" name="Page-1">
     <mxGraphModel dx="877" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-140" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span&gt;&lt;b&gt;GET 17 AND 83 MCW PERCENTILE PER WAFER&lt;br&gt;FLAG ALL ROWS INSIDE (17.83)&lt;br&gt;GET MCW MEAN &amp;amp; SIGMA PER WAFER&lt;br&gt;CL = MEAN +- 6*SIGMA&lt;br&gt;OBTAIN ALL DATA INSIDE THE CL&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="241.72" y="2500" width="335.16" height="110" as="geometry" />
+          <mxGeometry x="258.6" y="2505.54" width="301.4" height="98.92" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-146" value="BCL + MCW + PROD + WAFWAL DATA&lt;br&gt;(MCW IS WITHIN CL)&lt;br&gt;&lt;br&gt;MERGED_5" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="288.75" y="2650" width="240" height="80" as="geometry" />
