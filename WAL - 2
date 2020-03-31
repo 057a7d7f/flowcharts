@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T05:24:18.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="G7DbR15MB3NsqHc7Vv_j" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-31T05:33:41.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="zHhASD_A1BEeQZLtFBZ_" version="12.9.4" type="github">
   <diagram id="FtwIqNkM9gL2dorzrRTE" name="Page-1">
     <mxGraphModel dx="863" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -151,21 +151,15 @@
         <mxCell id="r_CxS1nLQhERaQd851t1-87" value="GROUP BY WAFERNUM, ROWNUM, BCL_PROCESSTS&lt;br&gt;&lt;br&gt;BCLTS_DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="360" y="915" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-4" target="Uq5JCv6MeDK_TDbl8lrW-57">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="210" y="1470" />
-              <mxPoint x="425" y="1470" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-4" target="Uq5JCv6MeDK_TDbl8lrW-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-4" target="Uq5JCv6MeDK_TDbl8lrW-82">
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-4" target="Uq5JCv6MeDK_TDbl8lrW-82">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="1490" as="targetPoint" />
             <Array as="points">
               <mxPoint x="100" y="945" />
-              <mxPoint x="100" y="2010" />
-              <mxPoint x="409" y="2010" />
+              <mxPoint x="100" y="1880" />
+              <mxPoint x="409" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -179,8 +173,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="720" y="1190" />
-              <mxPoint x="720" y="1720" />
-              <mxPoint x="590" y="1720" />
+              <mxPoint x="720" y="1640" />
+              <mxPoint x="590" y="1640" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -191,40 +185,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-46" value="&lt;span style=&quot;&quot;&gt;GET &quot;LATEST&quot; WAFER PARAMETER DATA PER WAFERNUM, ROWNUM BY USING BCLTS AND WAFERTS DATA &lt;br&gt;&lt;/span&gt;(PUT REMARKS)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="273.12" y="1270" width="303.76" height="60" as="geometry" />
+          <mxGeometry x="273.12" y="1250" width="303.76" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-55" target="Uq5JCv6MeDK_TDbl8lrW-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-55" value="&lt;span style=&quot;&quot;&gt;GET COUNT(DELTATS) (NUMBER OF PROCESSED ROWS PER WAFERNUM)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="298.43" y="1380" width="253.13" height="50" as="geometry" />
+          <mxGeometry x="298.43" y="1350" width="253.13" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-57" target="Uq5JCv6MeDK_TDbl8lrW-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-57" value="MERGE ON WAFERNUM&lt;br&gt;&lt;br&gt;PROD + WAFER + BCL DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="335" y="1500" width="180" height="60" as="geometry" />
+          <mxGeometry x="335" y="1430" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-61" target="Uq5JCv6MeDK_TDbl8lrW-76">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="1640" />
+              <mxPoint x="590" y="1640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-61" value="&lt;span style=&quot;&quot;&gt;SELECT LATEST WAFER DATA (WITH REMARKS) WITH ENOUGH SA ROW DATA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="298.44" y="1610" width="253.13" height="50" as="geometry" />
+          <mxGeometry x="298.44" y="1530" width="253.13" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-76" target="Uq5JCv6MeDK_TDbl8lrW-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-76" value="MERGE ON WAFERNUM, ACTIVEUNTILTS&lt;br&gt;&lt;br&gt;WAFER SA DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="500" y="1780" width="180" height="60" as="geometry" />
+          <mxGeometry x="500" y="1680" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-79" target="Uq5JCv6MeDK_TDbl8lrW-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-79" value="GET PARMVALUE OF EACH PARMNAME, GROUP BY WAFERNUM, ROWNUM, WAFERTOFAB DATE&lt;br&gt;&lt;br&gt;WAFERTOFABT DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="470" y="1890" width="240" height="80" as="geometry" />
+          <mxGeometry x="470" y="1780" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uq5JCv6MeDK_TDbl8lrW-82" target="Uq5JCv6MeDK_TDbl8lrW-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uq5JCv6MeDK_TDbl8lrW-82" value="MERGE ON WAFERNUM&lt;br&gt;CALCULATE QUAD COLUMN&lt;br&gt;&lt;br&gt;WAFERTOFABT DATA" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="288.75" y="2050" width="240" height="80" as="geometry" />
+          <mxGeometry x="288.75" y="1900" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uq5JCv6MeDK_TDbl8lrW-86" value="SINCE RW_SEP ONLY EXISTS ON EACH WAFER ON ROWNUM = 0, FILL ALL RW_SEP DATA ON EACH WAFER" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="256.87" y="2030" width="303.76" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
